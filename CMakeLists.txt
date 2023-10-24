@@ -5,6 +5,7 @@ project(${PROJECT_NAME})
 add_subdirectory(src)
 add_executable(tests
     tests/boost/test_boost.cpp
+    tests/beast/test_beast.cpp
 )
 
 find_package(GTest REQUIRED)
